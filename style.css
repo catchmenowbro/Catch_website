@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 1em;
+    color: #ffe8f0;
+}

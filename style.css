@@ -1,37 +1,36 @@
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
     color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.container {
-    padding: 60px 20px;
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
 }
 
 h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.subtitle {
-    font-size: 1.3em;
-    margin-bottom: 40px;
+.slideshow p {
+    font-size: 1.5em;
+    animation: fade 2s ease-in-out infinite;
 }
 
-.content {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 15px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 600px;
-}
-
-footer {
-    margin-top: 60px;
-    font-size: 1em;
-    color: #ffe8f0;
+@keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
 }
